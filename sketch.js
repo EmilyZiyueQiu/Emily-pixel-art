@@ -6,16 +6,18 @@ let ySize = 255;
 
 
 
+
+
 function setup() {
   background(255);
   cnv=createCanvas(xSize, ySize);
   centerCanvas();
-
-  //drawArt();
+  drawArt();
 }
 
 function draw(){
-  drawArt();
+  console.log(frameCount);
+  //drawArt();
 }
 
 function buildRandomFunction(depth) {
@@ -75,4 +77,9 @@ function centerCanvas() {
   let x = (windowWidth - width) / 2;
   let y = (windowHeight - height) / 2;
   cnv.position(x, y);
+}
+
+//refresh
+function refresh(){
+  window.location.reload();
 }

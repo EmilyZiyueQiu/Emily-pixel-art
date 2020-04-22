@@ -1,3 +1,20 @@
 body {
     margin: 0;
 }
+
+#refresh{
+    width: 150px;
+    height:35px;
+    font-size: 17px;
+    top: 570px;
+    left: 650px;
+    position: absolute;
+    background-color:#000000;
+    color:#ffffff;
+    font-family: Chalkduster, fantasy;
+    border-radius:6px;
+    border:1px solid #000000;
+    cursor:pointer;
+    box-shadow:inset 0px 1px 0px 0px #000000;
+    text-shadow:0px 1px 0px #000000;
+}
