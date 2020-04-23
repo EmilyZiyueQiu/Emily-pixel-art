@@ -17,7 +17,6 @@ function setup() {
 
 function draw(){
   console.log(frameCount);
-  //drawArt();
 }
 
 function buildRandomFunction(depth) {
